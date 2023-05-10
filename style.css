@@ -24,6 +24,7 @@
 body {
   font-family: "Cormorant SC", serif;
   background-color: #e5e5e5;
+  margin: 0;
 }
 
 /* Reset*/
@@ -135,10 +136,12 @@ li {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+  
 }
 
 .project-link {
   margin-left: 10px;
+  
 }
 
 .project-bracket {
@@ -176,6 +179,7 @@ li {
 .tech-skills,
 .soft-skills {
   margin-left: 40px;
+  margin-bottom: 10px;
 }
 .contacts {
   margin-bottom: 45px;
@@ -220,6 +224,19 @@ li {
   font-size: 14px;
   line-height: 24px;
 }
+.tech-skills-link {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+}
+.tech-skills-link:hover,
+.tech-skills-link:focus{
+  color:var(--logo-color);
+}
+
 .soft-skills {
   margin-bottom: 45px;
 }
@@ -370,4 +387,173 @@ li {
 .headr-icon {
   display: inline-flex;
   margin-right: 10px;
+}
+
+.cont {
+  display: flex;
+}
+
+footer {
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.foot {
+  background-color: var(--sidebar);
+}
+
+.cont-foot {
+  display: flex;
+  align-items: baseline;
+}
+
+.foot-adress {
+  margin-top: 20px;
+  height: 81px;
+  width: 231px;
+}
+.item-foot {
+  margin-bottom: 10px;
+
+}
+.title-foot {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+
+  line-height: 1.2;
+
+  text-decoration: none;
+  color: var(--header-color);
+}
+.logof {
+  color: var(--button-color);
+}
+
+.link_foot {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  padding-top: 20px;
+  color: var(--border-color);
+}
+.list_cont {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  color: var(--border-color);
+  transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.list_cont:hover,
+.list_cont:focus {
+  color: var(--logo-color);
+}
+.item-foot:not(:nth-last-child) {
+  margin-bottom: 9px;
+}
+.social {
+  margin-left: 70px;
+}
+
+.socials-title {
+  color: var(--header-color);
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.socials-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.soc-item {
+  margin: 0;
+}
+
+.soc-link-foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: var(--header-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.soc-link-foot:hover,
+.soc-link-foot:focus {
+  background-color: var(--logo-color);
+}
+
+.send-group {
+  margin-left: 93px;
+}
+.title-form {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--header-color);
+}
+.form-foot {
+  display: flex;
+}
+.imp-mail-foot {
+  display: block;
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  color: var(--button-color);
+  font-size: 16px;
+  line-height: 1.25;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  transition: border-color var(--anim-time) var(--animation-timing-function);
+}
+.imp-mail-foot:focus-within,
+.imp-mail-foot:hover {
+  border: 1px solid var(--focus-color);
+}
+.btn-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--header-color);
+  background-color: var(--button-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: transparent;
+  cursor: pointer;
+  transition: background-color var(--anim-time) var(--animation-timing-function);
+}
+.btn-submit:focus-visible,
+.btn-submit:hover {
+  background-color: var(--focus-color);
+}
+
+.icon-send {
+  fill: currentColor;
 }
