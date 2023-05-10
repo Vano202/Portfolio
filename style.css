@@ -29,7 +29,7 @@ body {
 .about-name {
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 29px;
   line-height: 55px;
   color: #000000;
   margin-bottom: 25px;
@@ -38,7 +38,7 @@ body {
 .about-description {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: #595959;
   width: 400px;
@@ -103,13 +103,13 @@ body {
 .period {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 15px;
   color: #fb6d3a;
 }
 
 .sidebar {
-  background-color: #00b1f7fc;
+  background-color: #393b3bfc;
   padding-top: 40px;
   width: 370px;
 }
